@@ -4,6 +4,6 @@ resource "aws_instance" "maheshec2" {
   availability_zone = "ap-south-1b"
   instance_type = "t2.micro"
   tags = {
-    "Name" = "myec2one"
+    "Name" = "maheshec2vm"
   }
 }
