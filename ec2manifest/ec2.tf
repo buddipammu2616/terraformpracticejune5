@@ -5,5 +5,6 @@ resource "aws_instance" "maheshec2" {
   instance_type = "t2.micro"
   tags = {
     "Name" = "myvpc1"
+    "tag1" = "maheshec2"
   }
 }
